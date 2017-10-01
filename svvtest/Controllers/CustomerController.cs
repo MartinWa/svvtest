@@ -4,6 +4,7 @@ using svvtest.Model;
 
 namespace svvtest.Controllers
 {
+    [Authorize]
     public class CustomersController : ApiController
     {
         public IHttpActionResult Get()
